@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+
+<head>
+    <title>
+        Browse Checklists
+    </title>
+    <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">GoForLaunch</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/">Home</a></li>
+                <li class="active"><a href="/browse">Browse Checklists</a></li>
+                <li><a href="/checklist">Create a Checklist</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <input type="text" class="form-control input-lg browse-search-box" onkeyup="service.getChecklists(event)" placeholder="Search"></input>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr />
+            </div>
+        </div>
+        <div class="checklist-wrapper">
+
+        </div>
+    </div>
+    <script type="text/javascript" src="/javascripts/helper.js"></script>
+    <script type="text/javascript" src="/javascripts/main.js"></script>
+</body>
+
+</html>

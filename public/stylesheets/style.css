@@ -1,0 +1,48 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.home-section-1 {
+    background-color: #ffffff;
+    border-bottom: 1px solid #CDCDCD;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.home-section-1-head {
+    padding-top: 20px;
+    font-size: 4em;
+    color: #16a085;
+}
+
+.home-section-1-text {
+    padding-top: 20px;
+    font-size: 1.5em;
+    color: #454545;
+}
+
+.browse-checklist-button {
+    margin-top: 20px;
+}
+
+.checklist-definition {
+    margin-top: 20px;
+}
+
+.step {
+    border: 1px solid #CDCDCD;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.browse-search-box {
+    margin-top: 20px;
+}
