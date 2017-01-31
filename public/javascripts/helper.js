@@ -5,9 +5,9 @@ var helper = (function() {
         return row;
     }
 
-    var createColDiv = function(width) {
+    var createColDiv = function(additionalClass, width) {
         var col = document.createElement('div');
-        col.setAttribute('class', 'form-group col-md-' + width);
+        col.setAttribute('class', additionalClass + ' col-md-' + width);
         return col;
     }
 
@@ -43,11 +43,16 @@ var helper = (function() {
         }
     }
 
+    var clearChildrenNodes = function(dom) {
+        dom.innerHTML = '';
+    }
+
     return {
         createRowDiv,
         createColDiv,
         createInput,
         makePOSTRequest,
-        makeGETRequest
+        makeGETRequest,
+        clearChildrenNodes
     }
 }());
